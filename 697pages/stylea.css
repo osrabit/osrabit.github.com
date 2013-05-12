@@ -1,0 +1,159 @@
+/*
+* Default styles
+*/
+@media screen {
+
+html { 
+	background-color:#bda;
+	}
+	
+body {
+	background-color:#fff;
+	opacity: 0.6;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+header {
+	background-color:#71e;
+	opacity:0.9;
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom: 1em;
+}
+
+nav {
+	margin:1em 1em 1em 1em;
+	background-color:#1ae;
+	border-style:solid;
+	border-width:1px;
+	border-radius:10px;
+	border-color:#000;
+
+
+}
+
+a {
+
+	font-family: 'Sniglet', cursive;
+	color:#ce1;
+	text-decoration:none;
+	font-size:1em;
+	padding-left:.75em;
+	padding-right:.75em;
+}
+
+img {
+	padding: 1em;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:.83em;
+	padding:1em;
+}
+
+h1 {
+	font-family: 'Sniglet', cursive;
+	color:#e71;
+	font-size:2em;
+}
+
+h2{
+	font-family: 'Sniglet', cursive;
+	color:#71e;
+	font-size:1.17em;
+	padding:1em;
+	text-align:center;
+}
+
+h3{
+	font-family: 'Sniglet', cursive;
+	color:#71e;
+	font-size:1em;
+	padding:1em;
+	text-align:center;
+}
+
+blockquote {
+	text-align:center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-style:italic;
+}
+
+#quote p{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+ul {
+	padding:0px;
+	margin:0px;
+	list-style-type:none;	
+}
+
+ul li {
+	margin:.5em .5em .5em .5em;
+}
+
+}
+
+
+/*
+* 600px and up, the default setting
+*/
+@media screen and (min-width: 600px) {
+
+body {
+	width:100%;
+}
+
+nav {
+	float:left;
+}
+
+img {
+	float:left;
+}
+
+p {
+	font-size:1em;
+}
+
+h1 {
+	font-size:2.5em;
+}
+
+h2 {
+	font-size:1.5em;
+}
+
+h3 {
+	font-size:1.17em;
+}
+
+}
+
+
+/*
+* 768px and up
+*/
+@media screen and (min-width: 768px) {
+
+body {
+	width:90%;
+}
+
+}
+
+
+/*
+* 960px and up
+*/
+@media screen and (min-width: 960px) {
+
+body {
+	width:864px;
+}
+
+}
